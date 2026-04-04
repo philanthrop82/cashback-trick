@@ -138,6 +138,23 @@ a {
   height: 100%;
 }
 
+.card-link {
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.35);
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+  background: #fff;
+  padding: 18px;
+  object-fit: contain;
+  height: 180px;
+}
+
 .bonus-steps {
   background: var(--card-light);
   border: 1px solid var(--border);
