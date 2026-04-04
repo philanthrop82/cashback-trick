@@ -59,11 +59,11 @@ a {
 }
 
 .logo-mark img {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
   object-fit: cover;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.35);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.35);
 }
 
 .btn {
