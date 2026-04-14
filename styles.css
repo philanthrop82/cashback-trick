@@ -163,11 +163,66 @@ a {
   color: var(--muted);
 }
 
-.bonus-steps ol {
-  margin-top: 10px;
-  padding-left: 20px;
+.step-guide {
   display: grid;
-  gap: 6px;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.step-card {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  display: grid;
+  gap: 16px;
+}
+
+.step-copy {
+  display: grid;
+  gap: 10px;
+}
+
+.step-copy h4 {
+  color: var(--text);
+  font-size: 22px;
+}
+
+.step-copy p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.step-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.16);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.step-images {
+  display: grid;
+  gap: 12px;
+}
+
+.step-images-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.step-image {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: #fff;
 }
 
 .faq-section {
@@ -221,5 +276,13 @@ a {
 
   .section-head h2 {
     font-size: 24px;
+  }
+
+  .step-images-two {
+    grid-template-columns: 1fr;
+  }
+
+  .step-copy h4 {
+    font-size: 20px;
   }
 }
